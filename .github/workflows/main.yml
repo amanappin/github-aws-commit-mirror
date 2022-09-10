@@ -15,7 +15,7 @@ jobs:
     - uses: actions/checkout@v1
     - uses: pixta-dev/repository-mirroring-action@v1
       with:
-        target_repo_url: ssh://git-codecommit.eu-central-1.amazonaws.com/v1/repos/github-aws-commit-mirror
-        ssh_private_key: ${{ secrets.CODECOMMIT_SSH_PRIVATE_KEY }}
-        ssh_username: ${{ secrets.CODECOMMIT_SSH_PRIVATE_KEY_ID }}
+        target_repo_url: ssh://git-codecommit.us-west-2.amazonaws.com/v1/repos/aman
+        ssh_private_key: kxUCHecBCBGyvUg+9So/gonKfKtVCpZDINUXCnPxGCI=
+        ssh_username: devops-aman-at-467487045317
 
